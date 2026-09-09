@@ -32,6 +32,7 @@ JOIN orderdetails od ON o.orderid = od.orderid
 JOIN products p ON od.productid = p.productid
 WHERE p.productname IN ('Gravad Lax', 'Mishi Kobe Niku');
 
+
 -- Select the employee name and customer name for orders sent by
 -- Speedy Express to customers living in Brussels
 SELECT DISTINCT
